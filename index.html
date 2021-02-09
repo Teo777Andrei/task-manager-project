@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href = "style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Hello</title>
+</head>
+<body style = "background:lightseagreen;">
+
+
+
+<div class  ="container">
+   
+    <div class ="box">
+        <div class ="task-popup">
+          <a href  = "tasks.html">
+          <img src= 'archive.svg' style = 'padding:13px;'></img>
+          </a>
+        </div>
+        <h1 class ="h1-pos">Task manager</h1>
+        <form action = "" name = "frm-task1"  class ="inp1 input-group" >
+            <div style ="width:50px;height:50px"></div>
+            <input type  ="text" class ="form-control" placeholder ="Insert task" name="txt_inp1">
+            <div style= "width:10px;"></div>
+            <input type = "submit" class ="btn-custom btn btn-outline-info" value="Upper">
+            <div style ="width:50px;height:50px"></div>
+        </form>
+
+        <form action= "" name = "frm-task2" class= "inp2 input-group">
+            <div style ="width:50px;height:50px"></div>
+            <input type  ="text" class ="form-control" placeholder ="Task description" name="txt_inp1">
+            <div style= "width:10px;"></div>
+            <input type = "submit" class ="btn-custom btn btn-outline-info" value="Upper">
+            <div style ="width:50px;height:50px"></div>
+        </form>
+        <div class = "radio-box">
+        <h2 class ="h2-pos">Task type </h2>
+        <form action ="" class = "none">
+        <div class="radio-btn1 form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value ="Important">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Important 
+            </label>
+          </div>
+        <div class="radio-btn2 form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value ="Not important">
+            <label class="form-check-label" for="flexRadioDefault2">
+              Not important
+            </label>
+        </div>
+        </form>
+        </div>
+   </div>
+    
+</div>
+
+ 
+<script type= "module" src ="app.js">
+</script>
+</body>
+</html>
